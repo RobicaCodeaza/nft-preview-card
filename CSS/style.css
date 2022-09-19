@@ -101,6 +101,7 @@ body {
 }
 
 .nft-description {
+  font-weight: 300;
   font-size: 1.6rem;
   line-height: 1.5;
   color: #8bacda;
@@ -139,10 +140,12 @@ body {
   padding-bottom: 1.6rem;
 }
 .nft-creator-photo {
+  border: none;
   width: 3.5rem;
   height: 3.5rem;
 }
 .nft-creator {
+  font-size: 1.8rem;
 }
 .nft-creator:hover {
   color: #00fff7;
