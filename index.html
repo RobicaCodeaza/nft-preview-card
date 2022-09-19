@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/queries.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <section class="section-card">
+      <div class="nft-card">
+        <figure class="imgBx">
+          <img
+            src="/images/image-equilibrium.jpg"
+            alt="Equilibrium Image"
+            class="img"
+          />
+          <img
+            src="/images/icon-view.svg"
+            alt="Icon view"
+            class="overlay-img color-filter"
+          />
+        </figure>
+        <div class="nft-content">
+          <a href="#">
+            <h1>Equilibrium #3429</h1>
+          </a>
+          <p class="nft-description">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+          <div class="offer">
+            <div class="eth-container">
+              <img
+                src="/images/icon-ethereum.svg"
+                alt="Ethereum"
+                class="eth-img"
+              />
+              <span class="eth">0.041 ETH</span>
+            </div>
+            <div class="time-left-container">
+              <img
+                src="/images/icon-clock.svg"
+                alt="Clock"
+                class="time-left-img"
+              />
+              <span class="time-left">3 days left</span>
+            </div>
+          </div>
+          <div class="nft-creator-container">
+            <img
+              src="/images/image-avatar.png"
+              alt="Avatar"
+              class="nft-creator-photo"
+            />
+            <p class="nft-creator"><span>Creation of</span> Jules Wyvern</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

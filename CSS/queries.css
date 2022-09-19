@@ -1,0 +1,14 @@
+@media (max-width: 75em) {
+  html {
+    /* 9px/16px = 56.25% */
+    font-size: 56.25%;
+  }
+}
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+}
+/* Mobile */
+@media (max-width: 36em) {
+}
